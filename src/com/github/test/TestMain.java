@@ -11,7 +11,7 @@ public class TestMain {
 		try {
 			n=Utils.tryParseInt(sc.next());
 			for(int i=0;i<n;i++){
-				System.out.println(Math.random());
+				System.out.println(Utils.random(0,10));
 			}
 		} catch (Exception e) {
 			System.out.println("Not a number.");
